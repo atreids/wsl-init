@@ -55,3 +55,8 @@ sudo ./wsl-init.sh
 - Installs oh-my-bash.
 - Installs NVM.
 - Installs Docker.
+
+## Themes
+
+The script installs oh-my-bash and replaces the 90210 theme with a custom one from this repo.
+Can use this theme by modifying `~/.bashrc` to include `OSH_THEME="90210"`

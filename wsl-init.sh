@@ -7,6 +7,12 @@ sudo apt update && sudo apt upgrade -y
 echo "Install oh-my-bash"
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
+echo "Backing up default 90210 theme"
+cp ~./.oh-my-bash/themes/90210/90210.theme.sh ~./.oh-my-bash/themes/90210/90210.theme.sh.backup
+
+echo "Replace with custom 90210 theme"
+cp ./themes/90210.theme.sh ~./.oh-my-bash/themes/90210/90210.theme.sh
+
 echo "Installing NVM"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
