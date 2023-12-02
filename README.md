@@ -52,6 +52,6 @@ sudo ./wsl-init.sh
 ```
 
 - Updates packages.
-- Install oh-my-bash.
+- Installs oh-my-bash.
 - Installs NVM.
 - Installs Docker.
