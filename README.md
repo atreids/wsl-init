@@ -48,5 +48,10 @@ git clone git@github.com:atreids/wsl-init.git
 Run script to setup WSL installation.
 
 ```bash
-./wsl-init.sh
+sudo ./wsl-init.sh
 ```
+
+- Updates packages.
+- Install oh-my-bash.
+- Installs NVM.
+- Installs Docker.
